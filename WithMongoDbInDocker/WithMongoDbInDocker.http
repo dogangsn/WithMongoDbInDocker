@@ -1,0 +1,6 @@
+@WithMongoDbInDocker_HostAddress = http://localhost:5200
+
+GET {{WithMongoDbInDocker_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
